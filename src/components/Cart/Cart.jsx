@@ -13,8 +13,8 @@ const Cart = (props) => {
     return (
         <div>
             <h1 className='text-center text-3xl my-8'>Order Summery</h1>
-            <p className='mb-5'>Total Price: ${total}</p>
             <p className='mb-5'>Selected Item: {cart.length}</p>
+            <p className='mb-5'>Total Price: ${total}</p>
             <p className='mb-5'>Total Shipping Charge: ${shipping}</p>
             <p className='mb-5'>Tax: ${tax}</p>
             <h6 className='mb-5 font-bold'>Grand Total: ${grandTotal}</h6>
