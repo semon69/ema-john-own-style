@@ -12,7 +12,7 @@ const Cart = (props) => {
         // } 
 
         // shortcut solution 
-        product.quantity = product.quantity || 1;
+        // product.quantity = product.quantity || 1;
 
         total = total + product.price * product.quantity;
         shipping = shipping + product.shipping;
